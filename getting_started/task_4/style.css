@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Comfortaa:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#root {
+    font-family: "Combo";
+}
+
+body {
+    background-color: #202124;
+    color: #e8eaed;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    font-family: "Combo";
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.nav-items {
+    list-style: none;
+    display: inline-flex;
+    gap: 1.2rem;
+}
+
+.logo {
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 40%;
+    border: 1px solid #1e9bbb;
+    background-color: #202124;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #202124;
+    background-color: #1e9bbb;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.nav-items a:hover {
+    background-color: #e8eaed;
+    color: #010e1c;
+    transition: all .4s ease-in;
+}
+
+.main-content {
+    height: 75vh;
+}
+
+.main {
+    background-color: #e8eaed;
+    color: #202124;
+    padding: 0.2rem .9rem;
+    margin: 1.2rem 0;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    text-align: center;
+}
+
+.main h1 {
+    color: #010e1c;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.2em;
+    /* font-family: "Raleway"; */
+}
+
+.main ol {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-height: 100%;
+}
+
+.main ol li {
+    background: #60d9f8;
+    padding: 0 .5rem;
+    text-align: center;
+    /* width: 45%; */
+}
+
+footer {
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    color: #1e9bbb;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 602px) {
+    .main {
+        text-align: start;
+        padding: .2rem 1.2rem;
+        border-radius: 0%;
+    }
+
+    .main h1, .main ol {
+        justify-items: flex-start;
+    }
+}
