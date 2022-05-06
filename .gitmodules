@@ -1,3 +1,6 @@
 [submodule "real_work/info-site"]
 	path = real_work/info-site
 	url = git@github.com:OVECJOE/info-site.git
+[submodule "real_work/business-card"]
+	path = real_work/business-card
+	url = git@github.com:OVECJOE/business-card.git
