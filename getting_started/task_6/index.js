@@ -16,7 +16,7 @@ function renderPunchline(punchline) {
     } else if (typeof punchline === 'string') {
         return <p>{punchline}</p>
     } else {
-        return <span className="big-font">None</span>
+        return <span className="big-font"> None.</span>
     }
 }
 
