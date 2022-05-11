@@ -102,11 +102,19 @@ body {
         color: antiquewhite;
         right: 0.1rem;
     }
-    /* 0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;} */
+}
+
+button {
+    align-self: center;
+    padding: .5rem 1rem;
+    background-color: #222222b4;
+    color: #fffcd4;
+    border: none;
+    border-radius: 20px;
+    font-weight: 900;
+    box-shadow: 1px 1px 8px #fffcd4;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 767px) {
