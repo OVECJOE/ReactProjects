@@ -1,0 +1,57 @@
+body {
+    background: center/cover repeat url(background.jpeg);
+    background-color: #0ae45333;
+    background-blend-mode: soft-light;
+    font-size: 15px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+    color: #333;
+    font-weight: 700;
+    font-family: cursive;
+    width: 100vw;
+    height: 100vh;
+    padding: 1.2rem 0 2.2rem;
+}
+
+.App div h2 {
+    font-size: 3.5rem;
+    transition: all 2s ease;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+span {
+    color: #7b0b02;
+    font-weight: bolder;
+    font-size: 3.8rem;
+    text-decoration: underline;
+    text-decoration-color: #0ae453;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.btns button {
+    padding: .5rem 1.5rem;
+    color: #0ae453;
+    background-color: #333;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btns button:hover {
+    transition: all 1s ease-in-out;
+    background-color: #33312390;
+    color: #7b0b02;
+}
