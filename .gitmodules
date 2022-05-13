@@ -13,3 +13,6 @@
 [submodule "real_work/travel-journal"]
 	path = real_work/travel-journal
 	url = git@github.com:OVECJOE/travel-journal.git
+[submodule "real_work/tenzie-game"]
+	path = real_work/tenzie-game
+	url = git@github.com:OVECJOE/tenzie-game.git
