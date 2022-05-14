@@ -16,3 +16,6 @@
 [submodule "real_work/tenzie-game"]
 	path = real_work/tenzie-game
 	url = git@github.com:OVECJOE/tenzie-game.git
+[submodule "real_work/movie-lexicon"]
+	path = real_work/movie-lexicon
+	url = git@github.com:OVECJOE/movie-lexicon.git
