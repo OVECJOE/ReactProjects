@@ -19,3 +19,6 @@
 [submodule "real_work/movie-lexicon"]
 	path = real_work/movie-lexicon
 	url = git@github.com:OVECJOE/movie-lexicon.git
+[submodule "real_work/port-craft"]
+	path = real_work/port-craft
+	url = git@github.com:OVECJOE/port-craft.git
