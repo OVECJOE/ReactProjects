@@ -1,64 +1,152 @@
-body {
-    background: center/cover repeat url(background.jpeg);
-    background-color: #0ae45333;
-    background-blend-mode: soft-light;
-    font-size: 15px;
+/* * {
+    box-sizing: border-box;
 }
 
-.App {
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #262626;
+    color: #D9D9D9;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.state {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    color: #333;
-    font-weight: 700;
-    font-family: cursive;
-    width: 100vw;
-    height: 100vh;
-    padding: 1.2rem 0 2.2rem;
 }
 
-.App div h2 {
-    font-size: 3.5rem;
-    transition: all 2s ease;
-    margin: 0;
-    padding: 0;
+.state--title {
     text-align: center;
 }
 
-span {
-    color: #7b0b02;
-    font-weight: bolder;
-    font-size: 3.8rem;
-    text-decoration: underline;
-    text-decoration-color: #0ae453;
-}
-
-.btns {
+.state--value {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     display: flex;
-    gap: 1rem;
-}
-
-.btns button {
-    padding: .5rem 1.5rem;
-    color: #0ae453;
-    background-color: #333;
-    font-size: 15px;
-    border: none;
-    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
     cursor: pointer;
-    font-weight: 600;
+} */
+
+
+/* * {
+    box-sizing: border-box;
 }
 
-.btns button:hover {
-    transition: all 1s ease-in-out;
-    background-color: #7b0b02;
-    color: #fff;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #262626;
+    color: #D9D9D9;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-pre {
-    background-color: #333;
-    padding: 1.3em;
-    color: rgb(238, 216, 17);
-    border-radius: 3px;
+.counter {
+    display: flex;
+    align-items: flex-end;
+}
+
+.counter > button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #737373;
+    color: #D9D9D9;
+    font-size: 1.5rem;
+}
+
+.counter > button:hover {
+    background-color: #404040;
+    color: #D9D9D9;
+}
+
+.counter > button:focus {
+    outline: none;
+}
+
+.counter--count {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+}
+
+.counter--plus {
+    margin-left: -20px;
+}
+
+.counter--minus {
+    margin-right: -20px;
+    z-index: 1;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+    -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+}
+
+.card--image {
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.card--name {
+    margin-block: 13px;
+    color: #333333;
+}
+
+.card--info {
+    padding: 10px;
+}
+
+.card--favorite {
+    width: 25px;
+    cursor: pointer;
+}
+
+.card--contact {
+    font-size: 0.75rem;
+    color: gray;
+    margin-block: 7px;
 }
