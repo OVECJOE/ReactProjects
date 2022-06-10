@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+nav{
+  padding: 5px;
+}
+
+nav h1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.book-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.App button {
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  font-weight: 500;
+  transition: background 400ms ease;
+}
+
+.App button:hover {
+  transition: background 400ms ease;
+  color: #fff;
+}
+
+.App #theme-button {
+  border: 3px solid #555;
+  padding: .7rem 1rem;
+}
+
+.App #theme-button:hover {
+  background-color: #555;
+  border: 2px solid #a3360a;
+}
+
+.App #login-button {
+  padding: .4rem 1rem;
+  border-radius: 2px;
+}
+
+.App #login-button:hover {
+  background-color: rgb(153, 23, 23) !important;
+  color: #fff !important;
+}
