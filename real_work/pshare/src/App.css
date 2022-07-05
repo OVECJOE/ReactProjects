@@ -1,0 +1,70 @@
+.App {
+  background-color: lightgrey;
+  color: rgb(1, 45, 1);
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: rgb(1, 45, 1);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  gap: .5rem;
+}
+
+.App-header .title {
+  font-size: calc(1.8rem + 2vmin);
+}
+
+.App-nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: .3rem;
+}
+
+.App-nav .search-card {
+  display: flex;
+  gap: .3rem;
+  width: 75%;
+  align-items: center;
+}
+
+.search-card label {
+  font-size: 1.3rem;
+}
+
+.search-card input {
+  min-width: 50%;
+  padding: .5rem;
+}
+
+.search-card button {
+  padding: .6rem;
+  cursor: pointer;
+  border: none;
+}
+
+.search-card button:hover {
+  background-color: rgb(6, 242, 6);
+  color: #fff;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.theme-box {
+  width: 60px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.theme-box .theme-toggler {
+  border-radius: 50%;
+  width: 55%;
+  height: 100%;
+  background-color: rgb(6, 242, 6);
+  position: absolute;
+}
