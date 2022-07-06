@@ -1,7 +1,11 @@
+import ProjectSection from './ProjectSection';
+import UserSection from './UserSection';
+
 const Main = () => {
     return (
         <main>
-            I am the main element
+            <ProjectSection />
+            <UserSection />
         </main>
     );
 };
